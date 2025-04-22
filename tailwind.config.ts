@@ -28,6 +28,19 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
+                // Custom colors for our brainstorm app
+                brand: {
+                    purple: {
+                        DEFAULT: '#9b87f5',
+                        dark: '#7E69AB',
+                        darker: '#6E59A5',
+                        light: '#E5DEFF',
+                    },
+                    blue: {
+                        DEFAULT: '#0EA5E9',
+                        light: '#D3E4FD',
+                    },
+                },
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
